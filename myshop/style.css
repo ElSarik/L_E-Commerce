@@ -1,0 +1,677 @@
+.logo
+{
+	position: absolute;
+	width: 225px;
+	border: 2px solid;
+	float: left;
+	height: 84px;
+	background: #014b80;
+}
+
+.category
+{
+	width: 16.667%;
+	height: 84px;
+	vertical-align: middle;
+	line-height: 84px;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 24px;
+	border: 1px solid;
+	border-radius: 5px;
+	background: #0087e8;
+	border-color:black;
+	color: white;
+	float: left;
+}
+
+.categories
+{
+	position: absolute;
+	width: 1420px;
+	height: 84px;
+	border: 2px solid;
+	left: 235px;
+	text-align: center;
+	background: #014b80;
+	vertical-align: middle;
+	line-height: 84px;
+	display: inline-block;
+}
+
+.credentials
+{
+	width: 240px;
+	position: absolute;
+	border: 2px solid;
+	float: left;
+	height: 84px;
+	left: 1657px;
+	background: #014b80;
+}
+
+.cart
+{
+	position: relative;
+	width: 241px;
+	float: left;
+	left: -2px;
+	height: 84px;
+	line-height: 84px;
+	color: white;
+	border: 1px solid;
+	border-radius: 5px;
+	background: #0087e8;
+	border-color:black;
+	overflow:auto;
+}
+
+.cart_div 
+{
+	float:left;
+	font-weight:bold;
+	position:relative;
+}
+
+.cart_div a 
+{
+	color:#000;
+}	
+
+.cart_div span 
+{
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+}
+
+.crt
+{
+	vertical-align: middle;
+	background: #014b80;
+	display: table;
+  margin: 0 auto;
+	font-size: 20px;
+	width: 1420px;
+}
+
+.crt .remove 
+{
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  padding: 0px;
+	font-size: 15px;
+}
+
+.crt .table
+{
+	position: absolute;
+	width: 1420px;
+	height: 500px;
+}
+
+.crt .table tr
+{
+	background: #0087e8;
+	font-weight: bold;
+	color: white;
+}
+
+.crt .table td 
+{
+	border-bottom: #0087e8 1px solid;
+	padding: 10px;
+}
+
+.crt .remove:hover 
+{
+	text-decoration:underline;
+}
+
+.login
+{
+	position: relative;
+	width: 150px;
+	float: left;
+	height: 84px;
+	line-height: 84px;
+	left: 89.5px;
+	border: 1px solid;
+	border-radius: 5px;
+	background: #0087e8;
+	border-color:black;
+	color: white;
+}
+
+.sub
+{
+	position: absolute;
+	width: 225px;
+	border: 2px solid;
+	float: left;
+	left: 8px;
+	top: 94px;
+	height: 870px;
+	background: #014b80;
+}
+
+.sub_categories
+{
+	position: relative;
+	width: 225px;
+	border: 1px solid;		/*border: 2px solid;*/
+	border-radius: 5px;
+	background: #0087e8;
+	float: left;
+	left: -1px;
+	text-align: center;
+	font-size:24.8px;
+	line-height: 3;
+	margin: 1px;
+	border-color:black;
+	color: white;
+	
+}
+
+.MainDisplay
+{
+	position: absolute;
+	width: 1420px;
+	border: 2px solid;
+	height: 870px;
+	left: 235.9px;
+	top: 94px;
+	overflow: auto; /* KEEP THIS!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+.OrdersMainDisplay
+{
+	position: absolute;
+	width: 1420px;
+	border: 2px solid;
+	height: 870px;
+	left: 235.9px;
+	top: 94px;
+	overflow-y: scroll;
+	scrollbar-width:none;
+	-ms-overflow-style: none;
+}
+
+.OrdersMainDisplay::-webkit-scrollbar
+{
+	width: 0;
+	height: 0;
+}
+
+.MainDisplayCart
+{
+	position: absolute;
+	width: 1420px;
+	border: 2px solid;
+	height: 820px;
+	left: 235px;
+	top: 94px;
+	background: #014b80;
+	overflow-y: scroll;
+	scrollbar-width:none;
+	-ms-overflow-style: none;
+}
+
+.MainDisplayCart::-webkit-scrollbar
+{
+	width: 0;
+	height: 0;
+}
+
+.box
+{
+	float: left;
+}
+
+.CartProductFont
+{
+	background: white;
+	color: black;
+	font-size: 23px;
+}
+
+.CartTotalPriceLocation
+{
+	font-size: 23px;
+	position: absolute;
+	width: 1400px;
+	height: 48px;
+	top: 916px;
+	left: 235px;
+	background: #0087e8;
+	display: inline;
+	line-height: 50px;
+	font-weight: bold;
+	border: 2px solid;
+	padding: 0px 10px 0px 10px;
+}
+
+.ProductDisplay
+{
+	position: absolute;
+	width: 1420px;
+	border: 2px solid;
+	height: 634px;
+	left: 235px;
+	top: 330px;
+	overflow: auto; /* KEEP THIS!!!!!!!!!!!!!!!!!!!!!!!! */
+	background: #0087e8;
+}
+
+.Product
+{
+	position: relative;
+	width: 1390px;
+	border: 2px solid;
+	height: 223px;
+	background: white;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+}
+
+.IndividualProduct
+{
+	position: relative;
+	width: 1408px;
+	border: 2px solid;
+	height: 856px;
+	background: white;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+}
+
+.ProductTags
+{
+	display: inline;
+	margin-left:15px;
+	font-size: 27px;
+}
+
+.ProductImage
+{
+	position: absolute;
+	float: left;
+}
+
+.ModifyProductImage
+{
+	position: absolute;
+	left: 120px;
+}
+
+.ProductName
+{
+	position: absolute;
+	left:200px;
+	width: 910px;
+	font-size: 25px;
+	background: #014b80;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px 0 5px 10px;
+	color: white;
+	font-family: Tahoma;
+}
+
+.LinkFix:link
+{
+	color:white;
+	text-decoration: none;
+}
+
+.LinkFix:visited
+{
+	color:white;
+	text-decoration: none;
+}
+.LinkFix:hover
+{
+	color:cyan;
+	text-decoration: none;
+}
+.LinkFix:active
+{
+	color:white;
+	text-decoration: none;
+}
+
+.ProductStatus
+{
+	font-size: 16px;
+	color: red;
+}
+
+.ProductDescription
+{
+	margin-top: 65px;
+	position: absolute;
+	left:200px;
+	width: 920px;
+	height: 182px;
+	padding: 5px 0 5px 10px;
+	font-family: Tahoma;
+	font-size: 22px;
+	overflow-y: scroll;
+	scrollbar-width:none;
+	-ms-overflow-style: none;
+}
+
+.IndividualProductDescription
+{
+	margin-top: 65px;
+	position: absolute;
+	left:200px;
+	width: 920px;
+	height: 760px;
+	padding: 5px 0 5px 10px;
+	font-family: Tahoma;
+	font-size: 22px;
+	overflow-y: scroll;
+	scrollbar-width:none;
+	-ms-overflow-style: none;
+}
+
+.ProductPrice
+{
+	position: absolute;
+	left:1120px;
+	width: 260px;
+	font-size: 25px;
+	background: #014b80;
+	font-weight: bold;
+	text-align: right;
+	padding: 5px 10px 5px 0px;
+	color: red;
+	font-family: Tahoma;
+}
+
+.IndividualProductPrice
+{
+	position: absolute;
+	left:1120px;
+	width: 278px;
+	font-size: 25px;
+	background: #014b80;
+	font-weight: bold;
+	text-align: right;
+	padding: 5px 10px 5px 0px;
+	color: red;
+	font-family: Tahoma;
+}
+
+.ProductInStock
+{
+	color: Green;
+	font-size:21px;
+	font-weight:bold;
+}
+
+.ProductLimitedStock
+{
+	color: Orange;
+	font-size:21px;
+	font-weight:bold;
+}
+
+.ProductOutOfStock
+{
+	color: Red;
+	font-size:21px;
+	font-weight:bold;
+}
+
+.ProductCart
+{
+	position: absolute;
+	top: 70px;
+	left: 1180px;
+	padding: 5px 10px 5px 0px;
+	align: center;
+}
+
+.IndividualProductCart
+{
+	position: absolute;
+	top: 70px;
+	left: 1198px;
+	padding: 5px 10px 5px 0px;
+	align: center;
+}
+
+.ProductDescription::-webkit-scrollbar
+{
+	width: 0;
+	height: 0;
+}
+
+.FilterLayout
+{
+	position: absolute;
+	width: 1420px;
+	left: 235px;
+	border: 2px solid;
+	height: 233px;
+	top: 94px;
+	
+}
+
+.FiltersLeft
+{
+	position: absolute;
+	width: 707px;
+	border: 2px solid;
+	height: 233px;
+	background: #014b80;
+	overflow-y: scroll;
+	scrollbar-width:none;
+	-ms-overflow-style: none;
+}
+
+.FiltersLeft::-webkit-scrollbar
+{
+	width: 0;
+	height: 0;
+}
+
+.FiltersRight
+{
+	position: relative;
+	width: 707px;
+	border: 2px solid;
+	height: 233px;
+	background: #014b80;
+	margin-left: 710px;
+	overflow-y: scroll;
+	scrollbar-width:none;
+	-ms-overflow-style: none;
+}
+
+.FiltersRight::-webkit-scrollbar
+{
+	width: 0;
+	height: 0;
+}
+
+.FilterText
+{
+	/*float: left;*/
+	color: white;
+	font-size: 24px;
+	display: inline;
+}
+
+.Filter 
+{
+	position: relative;
+	border: 1px solid;		/*border: 2px solid;*/
+	border-radius: 5px;
+	background: #0087e8;
+	text-align: center;
+	font-size:24px;
+	border-color:black;
+	color: white;
+	display: inline;
+}
+
+.selected
+{
+	position: relative;
+	border: 1px solid;		/*border: 2px solid;*/
+	border-radius: 5px;
+	background: red;
+	text-align: center;
+	font-size:24px;
+	border-color:black;
+	color: white;
+	display: inline;
+}
+
+.FilterOrder
+{
+	display: inline;
+}
+
+.sales
+{
+	position: absolute;
+	width: 240px;
+	border: 2px solid;
+	float: left;
+	left: 1657px;
+	top: 94px;
+	height: 870px;
+	background: #014b80;
+}
+
+.OrdersWindow
+{
+	position: relative;
+	width: 1418px;
+	left: -2px;
+	border: 2px solid;
+	#height: 233px;
+	background: #014b80;
+	#margin-bottom: 3px;
+}
+
+.OrdersDetails
+{
+	position: relative;
+	width: 1410px;
+	left: -2px;
+	top: -2px;
+	height: 30px;
+	background: #0087e8;
+	
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px 0 5px 10px;
+	color: white;
+	font-family: Tahoma;
+}
+
+.OrdersProduct
+{
+	position: relative;
+	width: 1410px;
+	left: -2px;
+	top: -2px;
+	height: 30px;
+	background: white;
+	font-size: 25px;
+	font-family: Tahoma;
+	padding: 5px 0 5px 10px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.OrdersLinkFix:link
+{
+	color:black;
+	text-decoration: none;
+}
+
+.OrdersLinkFix:visited
+{
+	color:black;
+	text-decoration: none;
+}
+.OrdersLinkFix:hover
+{
+	color:red;
+	text-decoration: none;
+}
+.OrdersLinkFix:active
+{
+	color:black;
+	text-decoration: none;
+}
+
+.LoginForm
+{
+	width: 45%;
+	top: 125px;
+	vertical-align: middle;
+	margin: 0px auto;
+	paddin: 20px;
+}
+
+.RegisterForm
+{
+	width: 45%;
+	top: 125px;
+	vertical-align: middle;
+	margin: 0px auto;
+	paddin: 20px;
+}
+
+.inputgroup
+{
+	margin: 10px 0px 10px 0px;
+}
+
+.inputgroup label
+{
+	display: block;
+	text-align: left;
+	margin: 3px;
+	font-size: 20px;
+}
+
+.inputgroup input
+{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+p
+{
+	font-size: 20px;
+}
+
+.error
+{
+	color: red;
+	font-weight: bold;
+}
